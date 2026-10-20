@@ -42,7 +42,7 @@ Production-ready PHP 8.1+ библиотека Http (CloudCastle).
 [![Maintainability](https://qlty.sh/gh/admin-cloud-castle/projects/http/maintainability.svg)](https://qlty.sh/gh/admin-cloud-castle/projects/http)
 [![Qlty Coverage](https://qlty.sh/gh/admin-cloud-castle/projects/http/coverage.svg)](https://qlty.sh/gh/admin-cloud-castle/projects/http)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/admin-cloud-castle/http/badge)](https://scorecard.dev/viewer/?uri=github.com/admin-cloud-castle/http)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects?as=badge&url=https%3A%2F%2Fgithub.com%2Fadmin-cloud-castle%2Fhttp)](https://www.bestpractices.dev/projects?as=entry&url=https%3A%2F%2Fgithub.com%2Fadmin-cloud-castle%2Fhttp)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/15727/badge)](https://www.bestpractices.dev/projects/15727)
 [![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=admin-cloud-castle_http&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=admin-cloud-castle_http)
 [![Snyk](https://snyk.io/test/github/admin-cloud-castle/http/badge.svg)](https://snyk.io/test/github/admin-cloud-castle/http)
 [![Codacy](https://img.shields.io/badge/Codacy-dashboard-blue)](https://app.codacy.com/gh/admin-cloud-castle/http/dashboard)
