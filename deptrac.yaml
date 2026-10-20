@@ -1,0 +1,32 @@
+deptrac:
+  paths:
+    - ./src
+    - ./tests
+  layers:
+    - name: Contract
+      collectors:
+        - type: classLike
+          value: CloudCastle\\Http\\Contract\\.*
+    - name: Exception
+      collectors:
+        - type: classLike
+          value: CloudCastle\\Http\\Exception\\.*
+    - name: Core
+      collectors:
+        - type: classLike
+          value: CloudCastle\\Http\\(?!Contract\\|Exception\\|Tests\\).*
+    - name: Tests
+      collectors:
+        - type: classLike
+          value: CloudCastle\\Http\\Tests\\.*
+  ruleset:
+    Contract: []
+    Exception:
+      - Exception
+    Core:
+      - Contract
+      - Exception
+    Tests:
+      - Contract
+      - Exception
+      - Core
